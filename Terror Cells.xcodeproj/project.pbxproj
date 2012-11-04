@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0967D1A1164691E800E7E215 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0967D1A0164691E800E7E215 /* UIKit.framework */; };
+		0967D1A3164691E800E7E215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0967D1A2164691E800E7E215 /* Foundation.framework */; };
+		0967D1A5164691E800E7E215 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0967D1A4164691E800E7E215 /* CoreGraphics.framework */; };
+		0967D1A7164691E800E7E215 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0967D1A6164691E800E7E215 /* CoreData.framework */; };
+		0967D1AD164691E800E7E215 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0967D1AB164691E800E7E215 /* InfoPlist.strings */; };
+		0967D1AF164691E800E7E215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967D1AE164691E800E7E215 /* main.m */; };
+		0967D1B3164691E800E7E215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967D1B2164691E800E7E215 /* AppDelegate.m */; };
+		0967D1B5164691E800E7E215 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0967D1B4164691E800E7E215 /* Default.png */; };
+		0967D1B7164691E800E7E215 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0967D1B6164691E800E7E215 /* Default@2x.png */; };
+		0967D1B9164691E800E7E215 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0967D1B8164691E800E7E215 /* Default-568h@2x.png */; };
+		0967D1BC164691E800E7E215 /* Terror_Cells.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0967D1BA164691E800E7E215 /* Terror_Cells.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0967D19C164691E800E7E215 /* Terror Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terror Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0967D1A0164691E800E7E215 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0967D1A2164691E800E7E215 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0967D1A4164691E800E7E215 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0967D1A6164691E800E7E215 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0967D1AA164691E800E7E215 /* Terror Cells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Terror Cells-Info.plist"; sourceTree = "<group>"; };
+		0967D1AC164691E800E7E215 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0967D1AE164691E800E7E215 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0967D1B0164691E800E7E215 /* Terror Cells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Terror Cells-Prefix.pch"; sourceTree = "<group>"; };
+		0967D1B1164691E800E7E215 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0967D1B2164691E800E7E215 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0967D1B4164691E800E7E215 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0967D1B6164691E800E7E215 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0967D1B8164691E800E7E215 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0967D1BB164691E800E7E215 /* Terror_Cells.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terror_Cells.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0967D199164691E800E7E215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0967D1A1164691E800E7E215 /* UIKit.framework in Frameworks */,
+				0967D1A3164691E800E7E215 /* Foundation.framework in Frameworks */,
+				0967D1A5164691E800E7E215 /* CoreGraphics.framework in Frameworks */,
+				0967D1A7164691E800E7E215 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0967D191164691E800E7E215 = {
+			isa = PBXGroup;
+			children = (
+				0967D1A8164691E800E7E215 /* Terror Cells */,
+				0967D19F164691E800E7E215 /* Frameworks */,
+				0967D19D164691E800E7E215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0967D19D164691E800E7E215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0967D19C164691E800E7E215 /* Terror Cells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0967D19F164691E800E7E215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0967D1A0164691E800E7E215 /* UIKit.framework */,
+				0967D1A2164691E800E7E215 /* Foundation.framework */,
+				0967D1A4164691E800E7E215 /* CoreGraphics.framework */,
+				0967D1A6164691E800E7E215 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0967D1A8164691E800E7E215 /* Terror Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0967D1B1164691E800E7E215 /* AppDelegate.h */,
+				0967D1B2164691E800E7E215 /* AppDelegate.m */,
+				0967D1BA164691E800E7E215 /* Terror_Cells.xcdatamodeld */,
+				0967D1A9164691E800E7E215 /* Supporting Files */,
+			);
+			path = "Terror Cells";
+			sourceTree = "<group>";
+		};
+		0967D1A9164691E800E7E215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0967D1AA164691E800E7E215 /* Terror Cells-Info.plist */,
+				0967D1AB164691E800E7E215 /* InfoPlist.strings */,
+				0967D1AE164691E800E7E215 /* main.m */,
+				0967D1B0164691E800E7E215 /* Terror Cells-Prefix.pch */,
+				0967D1B4164691E800E7E215 /* Default.png */,
+				0967D1B6164691E800E7E215 /* Default@2x.png */,
+				0967D1B8164691E800E7E215 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0967D19B164691E800E7E215 /* Terror Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0967D1BF164691E800E7E215 /* Build configuration list for PBXNativeTarget "Terror Cells" */;
+			buildPhases = (
+				0967D198164691E800E7E215 /* Sources */,
+				0967D199164691E800E7E215 /* Frameworks */,
+				0967D19A164691E800E7E215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Terror Cells";
+			productName = "Terror Cells";
+			productReference = 0967D19C164691E800E7E215 /* Terror Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0967D193164691E800E7E215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gal Blank";
+			};
+			buildConfigurationList = 0967D196164691E800E7E215 /* Build configuration list for PBXProject "Terror Cells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0967D191164691E800E7E215;
+			productRefGroup = 0967D19D164691E800E7E215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0967D19B164691E800E7E215 /* Terror Cells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0967D19A164691E800E7E215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0967D1AD164691E800E7E215 /* InfoPlist.strings in Resources */,
+				0967D1B5164691E800E7E215 /* Default.png in Resources */,
+				0967D1B7164691E800E7E215 /* Default@2x.png in Resources */,
+				0967D1B9164691E800E7E215 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0967D198164691E800E7E215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0967D1AF164691E800E7E215 /* main.m in Sources */,
+				0967D1B3164691E800E7E215 /* AppDelegate.m in Sources */,
+				0967D1BC164691E800E7E215 /* Terror_Cells.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0967D1AB164691E800E7E215 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0967D1AC164691E800E7E215 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0967D1BD164691E800E7E215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0967D1BE164691E800E7E215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0967D1C0164691E800E7E215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Terror Cells/Terror Cells-Prefix.pch";
+				INFOPLIST_FILE = "Terror Cells/Terror Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0967D1C1164691E800E7E215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Terror Cells/Terror Cells-Prefix.pch";
+				INFOPLIST_FILE = "Terror Cells/Terror Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0967D196164691E800E7E215 /* Build configuration list for PBXProject "Terror Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0967D1BD164691E800E7E215 /* Debug */,
+				0967D1BE164691E800E7E215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0967D1BF164691E800E7E215 /* Build configuration list for PBXNativeTarget "Terror Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0967D1C0164691E800E7E215 /* Debug */,
+				0967D1C1164691E800E7E215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0967D1BA164691E800E7E215 /* Terror_Cells.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0967D1BB164691E800E7E215 /* Terror_Cells.xcdatamodel */,
+			);
+			currentVersion = 0967D1BB164691E800E7E215 /* Terror_Cells.xcdatamodel */;
+			path = Terror_Cells.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0967D193164691E800E7E215 /* Project object */;
+}
