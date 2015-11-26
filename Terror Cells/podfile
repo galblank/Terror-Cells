@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TerrorCells' do
+pod 'AFNetworking', '~> 2.6'
+pod 'SBJson', '~> 4.0.0'
+end
+

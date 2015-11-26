@@ -1,0 +1,5 @@
+http://www.criticalthreats.org/rss.xml
+http://www.investigativeproject.org/blog.xml
+http://www.guardian.co.uk/world/terrorism/rss
+http://feeds.feedburner.com/NationalTerrorAlertResourceCenter
+http://topics.nytimes.com/top/reference/timestopics/subjects/t/terrorism/index.html?rss=1

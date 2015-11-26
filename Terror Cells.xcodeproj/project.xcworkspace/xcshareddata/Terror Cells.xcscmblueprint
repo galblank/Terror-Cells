@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6B9E4A29972EA7B32DDCF195E619F506BD091104",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "40ac48e5-7639-fe42-a35d-bebba9a07acf++3145" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6B9E4A29972EA7B32DDCF195E619F506BD091104" : 0,
+    "40ac48e5-7639-fe42-a35d-bebba9a07acf++3145" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "56706B3D-D11D-4FCA-B2E6-BC6527ABC869",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6B9E4A29972EA7B32DDCF195E619F506BD091104" : "Terror%20Cells\/",
+    "40ac48e5-7639-fe42-a35d-bebba9a07acf++3145" : "Terror%20Cells\/Terror%20Cells\/JSONLIB\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Terror Cells",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Terror Cells.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/coil.vivatconsulting.com\/svn\/vivat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40ac48e5-7639-fe42-a35d-bebba9a07acf++3145"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/galblank\/Terror-Cells.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6B9E4A29972EA7B32DDCF195E619F506BD091104"
+    }
+  ]
+}
