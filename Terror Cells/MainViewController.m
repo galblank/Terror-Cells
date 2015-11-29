@@ -23,6 +23,7 @@
 #import "SettingsView.h"
 #import "CapturedView.h"
 #import "CommManager.h"
+#import "StringHelper.h"
 @implementation MainViewController
 
 #define BUTTON_HEIGHT 70
@@ -148,7 +149,7 @@ while (0)
     else if([wikiSearch rangeOfString:@"dst"].location != NSNotFound){
         wikiSearch = @"Direction_de_la_surveillance_du_territoire";
     }
-    wikiSearch = [[WapConnector sharedInstance] urlencode:wikiSearch];
+    wikiSearch = [wikiSearch urlEncode];
     NSString *wikiStr = [NSString stringWithFormat:@"http://en.m.wikipedia.org/w/index.php?title=%@&mobileaction=render",wikiSearch];
     
     

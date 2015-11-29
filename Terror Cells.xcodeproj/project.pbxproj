@@ -195,6 +195,24 @@
 		C189C49C1C06A80C0048CDD6 /* CommManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C49B1C06A80C0048CDD6 /* CommManager.m */; settings = {ASSET_TAGS = (); }; };
 		C189C4A51C06AD310048CDD6 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C189C49F1C06AD310048CDD6 /* database.sqlite */; settings = {ASSET_TAGS = (); }; };
 		C189C4A71C06AD310048CDD6 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4A21C06AD310048CDD6 /* DBManager.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5021C06B02C0048CDD6 /* ABContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4DE1C06B02C0048CDD6 /* ABContactsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5031C06B02C0048CDD6 /* AFAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4E01C06B02C0048CDD6 /* AFAddressBookManager.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5041C06B02C0048CDD6 /* AFContact.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4E21C06B02C0048CDD6 /* AFContact.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5051C06B02C0048CDD6 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4E41C06B02C0048CDD6 /* DBManager.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5061C06B02C0048CDD6 /* GCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4E61C06B02C0048CDD6 /* GCrypto.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5071C06B02C0048CDD6 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4E81C06B02C0048CDD6 /* GTMBase64.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5081C06B02C0048CDD6 /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4EB1C06B02C0048CDD6 /* ImageResizer.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5091C06B02C0048CDD6 /* InsetTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4ED1C06B02C0048CDD6 /* InsetTextField.m */; settings = {ASSET_TAGS = (); }; };
+		C189C50A1C06B02C0048CDD6 /* InsetTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4EF1C06B02C0048CDD6 /* InsetTextView.m */; settings = {ASSET_TAGS = (); }; };
+		C189C50B1C06B02C0048CDD6 /* InsetUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4F11C06B02C0048CDD6 /* InsetUILabel.m */; settings = {ASSET_TAGS = (); }; };
+		C189C50C1C06B02C0048CDD6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4F31C06B02C0048CDD6 /* NSData+Base64.m */; settings = {ASSET_TAGS = (); }; };
+		C189C50D1C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4F51C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.m */; settings = {ASSET_TAGS = (); }; };
+		C189C50E1C06B02C0048CDD6 /* RoundImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4F71C06B02C0048CDD6 /* RoundImageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C189C50F1C06B02C0048CDD6 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4F91C06B02C0048CDD6 /* StringHelper.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5101C06B02C0048CDD6 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4FB1C06B02C0048CDD6 /* UIImage+Alpha.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5111C06B02C0048CDD6 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4FD1C06B02C0048CDD6 /* UIImage+Resize.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5121C06B02C0048CDD6 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C4FF1C06B02C0048CDD6 /* UIImage+RoundedCorner.m */; settings = {ASSET_TAGS = (); }; };
+		C189C5131C06B02C0048CDD6 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C189C5011C06B02C0048CDD6 /* Utils.m */; settings = {ASSET_TAGS = (); }; };
 		C18C02BD1BFD303A00D7DA97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18C02BC1BFD303A00D7DA97 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
 		CE2E512319356ABB009F9C70 /* Default6401136.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2E512219356ABB009F9C70 /* Default6401136.png */; };
 		CE2E512619356CC3009F9C70 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2E512419356CC3009F9C70 /* Default.png */; };
@@ -623,6 +641,43 @@
 		C189C49F1C06AD310048CDD6 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
 		C189C4A11C06AD310048CDD6 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		C189C4A21C06AD310048CDD6 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		C189C4DD1C06B02C0048CDD6 /* ABContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABContactsViewController.h; sourceTree = "<group>"; };
+		C189C4DE1C06B02C0048CDD6 /* ABContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABContactsViewController.m; sourceTree = "<group>"; };
+		C189C4DF1C06B02C0048CDD6 /* AFAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAddressBookManager.h; sourceTree = "<group>"; };
+		C189C4E01C06B02C0048CDD6 /* AFAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAddressBookManager.m; sourceTree = "<group>"; };
+		C189C4E11C06B02C0048CDD6 /* AFContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFContact.h; sourceTree = "<group>"; };
+		C189C4E21C06B02C0048CDD6 /* AFContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFContact.m; sourceTree = "<group>"; };
+		C189C4E31C06B02C0048CDD6 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		C189C4E41C06B02C0048CDD6 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		C189C4E51C06B02C0048CDD6 /* GCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCrypto.h; sourceTree = "<group>"; };
+		C189C4E61C06B02C0048CDD6 /* GCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCrypto.m; sourceTree = "<group>"; };
+		C189C4E71C06B02C0048CDD6 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		C189C4E81C06B02C0048CDD6 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		C189C4E91C06B02C0048CDD6 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		C189C4EA1C06B02C0048CDD6 /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
+		C189C4EB1C06B02C0048CDD6 /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
+		C189C4EC1C06B02C0048CDD6 /* InsetTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetTextField.h; sourceTree = "<group>"; };
+		C189C4ED1C06B02C0048CDD6 /* InsetTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetTextField.m; sourceTree = "<group>"; };
+		C189C4EE1C06B02C0048CDD6 /* InsetTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetTextView.h; sourceTree = "<group>"; };
+		C189C4EF1C06B02C0048CDD6 /* InsetTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetTextView.m; sourceTree = "<group>"; };
+		C189C4F01C06B02C0048CDD6 /* InsetUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetUILabel.h; sourceTree = "<group>"; };
+		C189C4F11C06B02C0048CDD6 /* InsetUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetUILabel.m; sourceTree = "<group>"; };
+		C189C4F21C06B02C0048CDD6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		C189C4F31C06B02C0048CDD6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		C189C4F41C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UnformattedPhoneNumber.h"; sourceTree = "<group>"; };
+		C189C4F51C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UnformattedPhoneNumber.m"; sourceTree = "<group>"; };
+		C189C4F61C06B02C0048CDD6 /* RoundImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundImageTableViewCell.h; sourceTree = "<group>"; };
+		C189C4F71C06B02C0048CDD6 /* RoundImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundImageTableViewCell.m; sourceTree = "<group>"; };
+		C189C4F81C06B02C0048CDD6 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		C189C4F91C06B02C0048CDD6 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		C189C4FA1C06B02C0048CDD6 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		C189C4FB1C06B02C0048CDD6 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		C189C4FC1C06B02C0048CDD6 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		C189C4FD1C06B02C0048CDD6 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		C189C4FE1C06B02C0048CDD6 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		C189C4FF1C06B02C0048CDD6 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		C189C5001C06B02C0048CDD6 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C189C5011C06B02C0048CDD6 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		C18C02BC1BFD303A00D7DA97 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CE2E512219356ABB009F9C70 /* Default6401136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default6401136.png; path = icons/Default6401136.png; sourceTree = "<group>"; };
 		CE2E512419356CC3009F9C70 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/icons/Default.png; sourceTree = "<group>"; };
@@ -923,6 +978,43 @@
 		0967D1C51646931900E7E215 /* HelperClasses */ = {
 			isa = PBXGroup;
 			children = (
+				C189C4DD1C06B02C0048CDD6 /* ABContactsViewController.h */,
+				C189C4DE1C06B02C0048CDD6 /* ABContactsViewController.m */,
+				C189C4DF1C06B02C0048CDD6 /* AFAddressBookManager.h */,
+				C189C4E01C06B02C0048CDD6 /* AFAddressBookManager.m */,
+				C189C4E11C06B02C0048CDD6 /* AFContact.h */,
+				C189C4E21C06B02C0048CDD6 /* AFContact.m */,
+				C189C4E31C06B02C0048CDD6 /* DBManager.h */,
+				C189C4E41C06B02C0048CDD6 /* DBManager.m */,
+				C189C4E51C06B02C0048CDD6 /* GCrypto.h */,
+				C189C4E61C06B02C0048CDD6 /* GCrypto.m */,
+				C189C4E71C06B02C0048CDD6 /* GTMBase64.h */,
+				C189C4E81C06B02C0048CDD6 /* GTMBase64.m */,
+				C189C4E91C06B02C0048CDD6 /* GTMDefines.h */,
+				C189C4EA1C06B02C0048CDD6 /* ImageResizer.h */,
+				C189C4EB1C06B02C0048CDD6 /* ImageResizer.m */,
+				C189C4EC1C06B02C0048CDD6 /* InsetTextField.h */,
+				C189C4ED1C06B02C0048CDD6 /* InsetTextField.m */,
+				C189C4EE1C06B02C0048CDD6 /* InsetTextView.h */,
+				C189C4EF1C06B02C0048CDD6 /* InsetTextView.m */,
+				C189C4F01C06B02C0048CDD6 /* InsetUILabel.h */,
+				C189C4F11C06B02C0048CDD6 /* InsetUILabel.m */,
+				C189C4F21C06B02C0048CDD6 /* NSData+Base64.h */,
+				C189C4F31C06B02C0048CDD6 /* NSData+Base64.m */,
+				C189C4F41C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.h */,
+				C189C4F51C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.m */,
+				C189C4F61C06B02C0048CDD6 /* RoundImageTableViewCell.h */,
+				C189C4F71C06B02C0048CDD6 /* RoundImageTableViewCell.m */,
+				C189C4F81C06B02C0048CDD6 /* StringHelper.h */,
+				C189C4F91C06B02C0048CDD6 /* StringHelper.m */,
+				C189C4FA1C06B02C0048CDD6 /* UIImage+Alpha.h */,
+				C189C4FB1C06B02C0048CDD6 /* UIImage+Alpha.m */,
+				C189C4FC1C06B02C0048CDD6 /* UIImage+Resize.h */,
+				C189C4FD1C06B02C0048CDD6 /* UIImage+Resize.m */,
+				C189C4FE1C06B02C0048CDD6 /* UIImage+RoundedCorner.h */,
+				C189C4FF1C06B02C0048CDD6 /* UIImage+RoundedCorner.m */,
+				C189C5001C06B02C0048CDD6 /* Utils.h */,
+				C189C5011C06B02C0048CDD6 /* Utils.m */,
 				097D2CDF165297C700A8146D /* AutoCompleteResult.m */,
 				097D2CE0165297C700A8146D /* AutoCompleteResult.h */,
 				097D2CC8165294F000A8146D /* DDAnnotation.h */,
@@ -1582,8 +1674,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C189C50F1C06B02C0048CDD6 /* StringHelper.m in Sources */,
+				C189C5081C06B02C0048CDD6 /* ImageResizer.m in Sources */,
+				C189C5101C06B02C0048CDD6 /* UIImage+Alpha.m in Sources */,
+				C189C50D1C06B02C0048CDD6 /* NSString+UnformattedPhoneNumber.m in Sources */,
 				0967D1AF164691E800E7E215 /* main.m in Sources */,
 				0967D1B3164691E800E7E215 /* AppDelegate.m in Sources */,
+				C189C50C1C06B02C0048CDD6 /* NSData+Base64.m in Sources */,
 				0967D1BC164691E800E7E215 /* Terror_Cells.xcdatamodeld in Sources */,
 				C189C4971C0699940048CDD6 /* MessageDispatcher.m in Sources */,
 				0967D1C41646930F00E7E215 /* MainViewController.m in Sources */,
@@ -1594,10 +1691,13 @@
 				0967D1E81646931900E7E215 /* Globals.m in Sources */,
 				0967D1E91646931900E7E215 /* Parser.m in Sources */,
 				0967D1EA1646931900E7E215 /* Reachability.m in Sources */,
+				C189C5091C06B02C0048CDD6 /* InsetTextField.m in Sources */,
+				C189C50A1C06B02C0048CDD6 /* InsetTextView.m in Sources */,
 				0967D1EB1646931900E7E215 /* RegexKitLite.m in Sources */,
 				0967D1EC1646931900E7E215 /* SlidingView.m in Sources */,
 				0967D1ED1646931900E7E215 /* splashView.m in Sources */,
 				0967D1EE1646931900E7E215 /* toastView.m in Sources */,
+				C189C5031C06B02C0048CDD6 /* AFAddressBookManager.m in Sources */,
 				0967D1EF1646931900E7E215 /* UIImage+Resizing.m in Sources */,
 				0967D1F01646931900E7E215 /* UIUnderlinedButton.m in Sources */,
 				C189C49C1C06A80C0048CDD6 /* CommManager.m in Sources */,
@@ -1608,6 +1708,7 @@
 				09A68DF5164AFCA00086408C /* ImageDemoFilledCell.m in Sources */,
 				09A68DF6164AFCA00086408C /* ImageDemoGridViewCell.m in Sources */,
 				09A68DF7164AFCA00086408C /* ImageDemoViewController.m in Sources */,
+				C189C50B1C06B02C0048CDD6 /* InsetUILabel.m in Sources */,
 				09A68E64164B0A910086408C /* AQGridViewData.m in Sources */,
 				09A68E65164B0A910086408C /* AQGridView.m in Sources */,
 				09A68E66164B0A910086408C /* AQGridViewAnimatorItem.m in Sources */,
@@ -1624,12 +1725,16 @@
 				09276EAF164C0CC5006AF9B4 /* MapView.m in Sources */,
 				09276EB2164C0CEB006AF9B4 /* MyMapAnnotation.m in Sources */,
 				09276EB6164C1110006AF9B4 /* MapItem.m in Sources */,
+				C189C5071C06B02C0048CDD6 /* GTMBase64.m in Sources */,
+				C189C5041C06B02C0048CDD6 /* AFContact.m in Sources */,
 				C189C4981C0699940048CDD6 /* Message.m in Sources */,
 				09276EB9164C11DB006AF9B4 /* CustomMapAnnotationView.m in Sources */,
 				09276EC0164C2695006AF9B4 /* GroupAttacksView.m in Sources */,
 				097C2FBF164C74920058FD22 /* NSString+HTML.m in Sources */,
 				097C2FC2164C74F90058FD22 /* GTMNSString+HTML.m in Sources */,
+				C189C5051C06B02C0048CDD6 /* DBManager.m in Sources */,
 				097C2FC5164C77550058FD22 /* ImageManipulation.m in Sources */,
+				C189C5121C06B02C0048CDD6 /* UIImage+RoundedCorner.m in Sources */,
 				097C2FC8164C86360058FD22 /* ProfilesView.m in Sources */,
 				097BC698164DB0BE008DF139 /* ProfilesTilesView.m in Sources */,
 				098801AE1651817A00EE0E3A /* UIView+Animation.m in Sources */,
@@ -1637,16 +1742,21 @@
 				098802C21652703500EE0E3A /* SendMailViewController.m in Sources */,
 				098802C5165271B500EE0E3A /* GalTextView.m in Sources */,
 				097D2CC71652945600A8146D /* LocationMap.m in Sources */,
+				C189C5111C06B02C0048CDD6 /* UIImage+Resize.m in Sources */,
 				097D2CCC165294F000A8146D /* DDAnnotation.m in Sources */,
 				097D2CCD165294F000A8146D /* DDAnnotationView.m in Sources */,
+				C189C50E1C06B02C0048CDD6 /* RoundImageTableViewCell.m in Sources */,
 				097D2CDE1652973200A8146D /* TripModel.m in Sources */,
 				097D2CE1165297C700A8146D /* AutoCompleteResult.m in Sources */,
 				097D2E581652A4F400A8146D /* SoundEffect.m in Sources */,
+				C189C5131C06B02C0048CDD6 /* Utils.m in Sources */,
 				097D2E671652AB7C00A8146D /* PaintingView.m in Sources */,
 				097D2E7C1653378000A8146D /* LocationsViewController.m in Sources */,
+				C189C5021C06B02C0048CDD6 /* ABContactsViewController.m in Sources */,
 				097D2E9E165483CF00A8146D /* SendTerroristIntel.m in Sources */,
 				097D2EA51654922400A8146D /* SettingsViewController.m in Sources */,
 				097D2EA81654951F00A8146D /* SettingsView.m in Sources */,
+				C189C5061C06B02C0048CDD6 /* GCrypto.m in Sources */,
 				097D47521655D71100A8146D /* CapturedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
